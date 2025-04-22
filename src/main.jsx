@@ -97,7 +97,7 @@ function App() {
           <a className="underline hover:text-white" href="https://x.com/SkibidiDogeCoin" target="_blank" rel="noopener noreferrer">
             Twitter
           </a>
-          <a className="underline hover:text-white" href="https://t.me/SkibidiDoge" target="_blank" rel="noopener noreferrer">
+          <a className="underline hover:text-white" href="https://t.me/SkibidiDogeCoin" target="_blank" rel="noopener noreferrer">
             Telegram
           </a>
         </div>
