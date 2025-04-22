@@ -64,7 +64,7 @@ function App() {
       {/* COMING SOON BANNER */}
       <div className="text-center bg-yellow-500 text-black px-6 py-4 rounded mt-8 z-10 max-w-lg">
         <h3 className="text-xl font-bold">🚧 Liquidity Not Live Yet</h3>
-        <p className="mt-1">We're flushing soon. Follow us on Twitter for the exact launch time.</p>
+        <p className="mt-1">We're flushing soon. Follow us on Twitter and Telegram for the exact launch time.</p>
       </div>
 
       {/* MEME METRICS */}
