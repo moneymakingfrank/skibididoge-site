@@ -90,14 +90,19 @@ function App() {
         <Pie data={tokenData} />
       </div>
 
-      {/* FOOTER */}
-      <footer className="absolute bottom-4 text-sm text-gray-400 z-10">
-        © 2025 SkibidiDoge — Follow us on{' '}
-        <a className="underline" href="https://x.com/SkibidiDogeCoin" target="_blank">
-          Twitter
-        </a>
+         {/* SOCIAL FOOTER */}
+         <footer className="mt-12 mb-6 text-sm text-gray-400 z-10 flex flex-col items-center space-y-1">
+        <p>© 2025 SkibidiDoge</p>
+        <div className="flex space-x-4">
+          <a className="underline hover:text-white" href="https://x.com/SkibidiDogeCoin" target="_blank" rel="noopener noreferrer">
+            Twitter
+          </a>
+          <a className="underline hover:text-white" href="https://t.me/SkibidiDoge" target="_blank" rel="noopener noreferrer">
+            Telegram
+          </a>
+        </div>
       </footer>
-    </div>
+    </div>  // CLOSES THE MAIN APP DIV
   )
 }
 
