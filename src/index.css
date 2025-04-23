@@ -2,55 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 🚽 Launch Background */
 .bg-flush-launch {
-    background: linear-gradient(to bottom right, #000000, #ffeb3b, #ff5722, #4caf50);
-  }
-  
-  @keyframes spin-slow {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  .animate-spin-slow {
-    animation: spin-slow 6s linear infinite;
-  }
-  @keyframes fall {
-    0% {
-      top: -5%;
-      opacity: 1;
-      transform: rotate(0deg);
-    }
-    100% {
-      top: 105%;
-      opacity: 0;
-      transform: rotate(720deg);
-    }
-  }
-  
-  .animate-fall {
-    position: absolute;
-    top: -5%;
-    animation: fall 3s ease-in-out forwards;
-  }
-  
-  .animate-fade {
-    animation: fadeOut 6s ease-in-out forwards;
-  }
-  
-  @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-  @keyframes shake {
-    0% { transform: translate(0); }
-    20% { transform: translate(-10px, 5px); }
-    40% { transform: translate(10px, -5px); }
-    60% { transform: translate(-5px, 5px); }
-    80% { transform: translate(5px, -5px); }
-    100% { transform: translate(0); }
-  }
-  
-  .shake-screen {
-    animation: shake 0.5s ease-in-out;
-  }
-  
+  background: linear-gradient(to bottom right, #000000, #ffeb3b, #ff5722, #4caf50);
+}
+
+/* 🌀 Slow Spin */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+/* 💩 Emoji Fall */
+@keyframes fall {
+  0% { top: -5%; opacity: 1; transform: rotate(0deg); }
+  100% { top: 105%; opacity: 0; transform: rotate(720deg); }
+}
+.animate-fall {
+  position: absolute;
+  top: -5%;
+  animation: fall 3s ease-in-out forwards;
+}
+
+/* 🫥 Fade Out */
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fade {
+  animation: fadeOut 6s ease-in-out forwards;
+}
+
+/* 💥 Screen Shake */
+@keyframes shake {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-10px, 10px); }
+  50% { transform: translate(10px, -10px); }
+  75% { transform: translate(-10px, 10px); }
+}
+.shake {
+  animation: shake 0.5s ease-in-out;
+}

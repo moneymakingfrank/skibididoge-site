@@ -1,0 +1,37 @@
+[
+  {
+    "rank": 1,
+    "label": "Liquidity Wallet",
+    "address": "6CTxcRbgu2gFfdowMqWWmfYtqKRxxZvLSPEHdcCzpvdF",
+    "amount": 500000000,
+    "percent": 50
+  },
+  {
+    "rank": 2,
+    "label": "Airdrop Wallet",
+    "address": "ADbKu8azurFfihHm3CQ8MnQqbiJvKPen9fKazeKHnpKj",
+    "amount": 200000000,
+    "percent": 20
+  },
+  {
+    "rank": 3,
+    "label": "Founder Wallet",
+    "address": "8YMVTyh9KNf3RsRFa38CWvaenKFkZLWPjEPQPn1zQjdd",
+    "amount": 150000000,
+    "percent": 15
+  },
+  {
+    "rank": 4,
+    "label": "Marketing Wallet",
+    "address": "BZFrKLo8xZitv1XynBaYsrsqYpRDy6gjSENtgJVQ326v",
+    "amount": 100000000,
+    "percent": 10
+  },
+  {
+    "rank": 5,
+    "label": "Burn Wallet",
+    "address": "Burn111111111111111111111111111111111111111",
+    "amount": 50000000,
+    "percent": 5
+  }
+]
