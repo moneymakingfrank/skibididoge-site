@@ -23,7 +23,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    const launchDate = new Date('2025-05-06T12:00:00-04:00')
+    const launchDate = new Date('2025-06-18T12:00:00-04:00')
     const interval = setInterval(() => {
       const now = new Date()
       const diff = launchDate - now
