@@ -109,7 +109,7 @@ function App() {
             <p className="text-lg mt-1">
               {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
             </p>
-            <p className="text-xs text-gray-400 mt-1">Launching May 6, 2025 @ Noon EST</p>
+            <p className="text-xs text-gray-400 mt-1">Launching June 19, 2025 @ Noon EST</p>
           </div>
 
           <div className="text-center bg-yellow-500 text-black px-6 py-4 rounded mt-4 z-10 max-w-lg">
