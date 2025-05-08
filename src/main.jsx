@@ -185,7 +185,7 @@ function App() {
 
     <div>
       <h3 className="font-bold text-yellow-300">When do we launch?</h3>
-      <p>May 6, 2025 @ Noon EST. The site explodes with flush FX, emoji rain, and unlocks the DEX link.</p>
+      <p>June 19, 2025 @ Noon EST. The site explodes with flush FX, emoji rain, and unlocks the DEX link.</p>
     </div>
 
     <div>
